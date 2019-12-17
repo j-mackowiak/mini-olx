@@ -1,0 +1,8 @@
+
+
+#add-ad-form > * {
+    height: 50px;
+    width:500px;
+    margin:5px;
+    display: block;
+}
