@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import SearchResults from './SearchResults/SearchResults';
-import SearchBar from './SearchBar';
-import CategoryMenu from './CategoryMenu';
-import AddNewButton from './AddNewButton';
+import SearchBar from './SearchBar/SearchBar';
+import CategoryMenu from './CategoryMenu/CategoryMenu';
+import AddNewButton from './AddNewButton/AddNewButton';
 
 class CategoryPageView extends Component {
     state = {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import SearchBar from './SearchBar';
+import SearchBar from './SearchBar/SearchBar';
+import AddNewButton from './AddNewButton/AddNewButton';
 import SearchResults from './SearchResults/SearchResults';
-import CategoryMenu from './CategoryMenu';
-import AddNewButton from './AddNewButton';
+import CategoryMenu from './CategoryMenu/CategoryMenu';
 
 class StartViewPage extends Component {
     state = {
@@ -22,7 +22,6 @@ class StartViewPage extends Component {
     }
 
     render() {
-
         return (
             <>
                 <SearchBar fetchAdverts={this.fetchAds} />

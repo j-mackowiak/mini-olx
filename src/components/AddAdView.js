@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import Alert from '../Alert/Alert';
+import Alert from './Alert/Alert';
 import './AddAdView.css'
 import { Link } from 'react-router-dom';
-
 
 class AddAdView extends Component {
     state = {

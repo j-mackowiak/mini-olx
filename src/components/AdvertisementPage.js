@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CategoryMenu from './CategoryMenu';
+import CategoryMenu from './CategoryMenu/CategoryMenu';
 
 class AdvertisementPage extends Component {
     state = {
@@ -10,7 +10,7 @@ class AdvertisementPage extends Component {
         const { adId } = this.props.match.params;
         fetch(`http://localhost:3003/advertisements/${adId}`)
             .then(res => res.json())
-            .then(res => this.setState({ advertisement: res }));
+            .then(res => this.setState({ advertisement: res }))
     }
 
     render() {
